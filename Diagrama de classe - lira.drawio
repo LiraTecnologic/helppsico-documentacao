@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="FYo9sC7w7eGnZXK1DtLb">
-    <mxGraphModel dx="644" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2790" dy="2562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-51" value="VinculoDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="800" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="NH4x6tpJ1_vxcIq61fx7-52" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:Psicologo&lt;br&gt;- paciente:Paciente&lt;div&gt;- status:StatusVinculo&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-51" vertex="1">
+        <mxCell id="NH4x6tpJ1_vxcIq61fx7-52" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:PsicologoDto&lt;br&gt;- paciente:PacienteDto&lt;div&gt;- status:StatusVinculoDto&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-51" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NH4x6tpJ1_vxcIq61fx7-51" vertex="1">
@@ -226,7 +226,7 @@
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-81" value="ConsultaDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="807" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="NH4x6tpJ1_vxcIq61fx7-82" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:Psicologo&lt;br&gt;- paciente:Paciente&lt;br&gt;- valor:BigDecimal&lt;br&gt;- dataHora:LocalDateTime&lt;br&gt;- endereco:EnderecoDto&lt;br&gt;- finalizada:Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-81" vertex="1">
+        <mxCell id="NH4x6tpJ1_vxcIq61fx7-82" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:PsicologoDto&lt;br&gt;- paciente:PacienteDto&lt;br&gt;- valor:BigDecimal&lt;br&gt;- dataHora:LocalDateTime&lt;br&gt;- endereco:EnderecoDto&lt;br&gt;- finalizada:Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-81" vertex="1">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NH4x6tpJ1_vxcIq61fx7-81" vertex="1">
@@ -253,7 +253,7 @@
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-90" value="AvaliacaoDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="1496" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="NH4x6tpJ1_vxcIq61fx7-91" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:Psicologo&lt;br&gt;- nota:BigDecimal&lt;br&gt;- comentario:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-90" vertex="1">
+        <mxCell id="NH4x6tpJ1_vxcIq61fx7-91" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:PsicologoDto&lt;br&gt;- nota:BigDecimal&lt;br&gt;- comentario:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NH4x6tpJ1_vxcIq61fx7-90" vertex="1">
           <mxGeometry y="26" width="220" height="64" as="geometry" />
         </mxCell>
         <mxCell id="NH4x6tpJ1_vxcIq61fx7-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NH4x6tpJ1_vxcIq61fx7-90" vertex="1">
@@ -277,7 +277,7 @@
         <mxCell id="pGlpWVM6Uu-nZEy0DmWe-9" value="HorarioPsicologoDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1450" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="pGlpWVM6Uu-nZEy0DmWe-10" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:Psicologo&lt;div&gt;- data:LocalDate&lt;/div&gt;&lt;div&gt;- hora:Time&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pGlpWVM6Uu-nZEy0DmWe-9" vertex="1">
+        <mxCell id="pGlpWVM6Uu-nZEy0DmWe-10" value="&lt;div&gt;- id:UUID&lt;/div&gt;- psicologo:PsicologoDto&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- data:LocalDate&lt;/span&gt;&lt;div&gt;- hora:Time&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pGlpWVM6Uu-nZEy0DmWe-9" vertex="1">
           <mxGeometry y="26" width="220" height="64" as="geometry" />
         </mxCell>
         <mxCell id="pGlpWVM6Uu-nZEy0DmWe-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pGlpWVM6Uu-nZEy0DmWe-9" vertex="1">
@@ -798,7 +798,7 @@
             <mxRectangle x="150" y="90" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-47" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- dataAtendimento:LocalDate&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- local:Endereco&lt;/div&gt;&lt;div&gt;- descricao:String&lt;/div&gt;&lt;div&gt;- descricaoEstadoPsicologico:String&lt;/div&gt;&lt;div&gt;- periodoAfastamento:String&lt;/div&gt;&lt;div&gt;- finalidade:String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Lw8Ct1tvFw-x7XHv2i7f-46" vertex="1">
+        <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-47" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- dataAtendimento:LocalDate&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- local:EnderecoDto&lt;/div&gt;&lt;div&gt;- descricao:String&lt;/div&gt;&lt;div&gt;- descricaoEstadoPsicologico:String&lt;/div&gt;&lt;div&gt;- periodoAfastamento:String&lt;/div&gt;&lt;div&gt;- finalidade:String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Lw8Ct1tvFw-x7XHv2i7f-46" vertex="1">
           <mxGeometry y="26" width="230" height="114" as="geometry" />
         </mxCell>
         <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Lw8Ct1tvFw-x7XHv2i7f-46" vertex="1">
@@ -1872,7 +1872,7 @@
             <mxRectangle x="150" y="90" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IEFTK-zxHjoKDMa3L_Gi-26" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- solicitante:String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- objetivo:String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- conclusao:String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- sigilo:String&lt;/div&gt;&lt;div&gt;- contextualizacao:String&lt;/div&gt;&lt;div&gt;- fundamentacao:Fundamentacao&lt;/div&gt;&lt;div&gt;- analiseDoCaso:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IEFTK-zxHjoKDMa3L_Gi-25" vertex="1">
+        <mxCell id="IEFTK-zxHjoKDMa3L_Gi-26" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- solicitante:String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- objetivo:String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- conclusao:String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- sigilo:String&lt;/div&gt;&lt;div&gt;- contextualizacao:String&lt;/div&gt;&lt;div&gt;- fundamentacao:String&lt;/div&gt;&lt;div&gt;- analiseDoCaso:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IEFTK-zxHjoKDMa3L_Gi-25" vertex="1">
           <mxGeometry y="26" width="230" height="124" as="geometry" />
         </mxCell>
         <mxCell id="IEFTK-zxHjoKDMa3L_Gi-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="IEFTK-zxHjoKDMa3L_Gi-25" vertex="1">
@@ -3454,16 +3454,6 @@
             <mxPoint x="620" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IuGEDQANVDmf_fSNETEH-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xi_Ez4iMPUKuNxddmw9I-7" target="NH4x6tpJ1_vxcIq61fx7-87" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="1160" as="sourcePoint" />
-            <mxPoint x="620" y="1160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="1160" />
-              <mxPoint x="640" y="1260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IuGEDQANVDmf_fSNETEH-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NH4x6tpJ1_vxcIq61fx7-90" target="NH4x6tpJ1_vxcIq61fx7-89" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="770" y="1480" as="sourcePoint" />
@@ -3720,6 +3710,17 @@
             <Array as="points">
               <mxPoint x="7910" y="1498" />
               <mxPoint x="7910" y="1102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IuGEDQANVDmf_fSNETEH-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NH4x6tpJ1_vxcIq61fx7-87" target="xi_Ez4iMPUKuNxddmw9I-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="1160" as="sourcePoint" />
+            <mxPoint x="620" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="1260" />
+              <mxPoint x="640" y="1210" />
+              <mxPoint x="640" y="1168" />
             </Array>
           </mxGeometry>
         </mxCell>
