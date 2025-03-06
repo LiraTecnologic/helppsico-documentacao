@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="FYo9sC7w7eGnZXK1DtLb">
-    <mxGraphModel dx="512" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3733" dy="2942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,7 +648,7 @@
             <mxRectangle x="150" y="90" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKe1cDVNCpbxpQ9V56hv-2" value="&lt;div&gt;- id:UUID&lt;/div&gt;- paciente:Paciente&lt;div&gt;- psicologo:Psicologo&lt;/div&gt;&lt;div&gt;- dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;- dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;- assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="vKe1cDVNCpbxpQ9V56hv-1" vertex="1">
+        <mxCell id="vKe1cDVNCpbxpQ9V56hv-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;id:UUID&lt;/div&gt;#&amp;nbsp;paciente:Paciente&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;psicologo:Psicologo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="vKe1cDVNCpbxpQ9V56hv-1" vertex="1">
           <mxGeometry y="26" width="190" height="94" as="geometry" />
         </mxCell>
         <mxCell id="vKe1cDVNCpbxpQ9V56hv-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="vKe1cDVNCpbxpQ9V56hv-1" vertex="1">
@@ -812,7 +812,7 @@
             <mxRectangle x="150" y="90" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-51" value="&lt;div&gt;- id:UUID&lt;/div&gt;- paciente:PacienteDto&lt;div&gt;- psicologo:PsicologoDto&lt;/div&gt;&lt;div&gt;- dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;- dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;- assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Lw8Ct1tvFw-x7XHv2i7f-50" vertex="1">
+        <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-51" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;id:UUID&lt;/div&gt;#&amp;nbsp;paciente:PacienteDto&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;psicologo:PsicologoDto&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Lw8Ct1tvFw-x7XHv2i7f-50" vertex="1">
           <mxGeometry y="26" width="190" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Lw8Ct1tvFw-x7XHv2i7f-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Lw8Ct1tvFw-x7XHv2i7f-50" vertex="1">
@@ -1004,15 +1004,6 @@
         </mxCell>
         <mxCell id="46YpiUPOS7ZKGa58N5SD-29" value="+ cadastrar(HorariosPsicologo):HorariosPsicologo&lt;div&gt;+ alterar(HorarioPsicologo):HorarioPsicologo&lt;/div&gt;&lt;div&gt;+ listarPorPsicologo(UUID):List&amp;lt;HorarioPsicologo&amp;gt;&lt;/div&gt;&lt;div&gt;+ consultarPorId(UUID):HorarioPsicologo&lt;/div&gt;&lt;div&gt;+ deletar(UUID&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="46YpiUPOS7ZKGa58N5SD-26" vertex="1">
           <mxGeometry y="78" width="320" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="46YpiUPOS7ZKGa58N5SD-30" value="CpfUseCase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4130" y="1000" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="46YpiUPOS7ZKGa58N5SD-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="46YpiUPOS7ZKGa58N5SD-30" vertex="1">
-          <mxGeometry y="26" width="260" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="46YpiUPOS7ZKGa58N5SD-33" value="+ validarCpf(String):Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="46YpiUPOS7ZKGa58N5SD-30" vertex="1">
-          <mxGeometry y="34" width="260" height="36" as="geometry" />
         </mxCell>
         <mxCell id="46YpiUPOS7ZKGa58N5SD-38" value="&lt;div&gt;CriptografiaUseCase&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4090" y="1125" width="300" height="110" as="geometry" />
@@ -1816,7 +1807,7 @@
             <mxRectangle x="150" y="90" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IEFTK-zxHjoKDMa3L_Gi-10" value="&lt;div&gt;- id:UUID&lt;/div&gt;- paciente:PacienteEntity&lt;div&gt;- psicologo:PsicologoEntity&lt;/div&gt;&lt;div&gt;- dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;- dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;- assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IEFTK-zxHjoKDMa3L_Gi-9" vertex="1">
+        <mxCell id="IEFTK-zxHjoKDMa3L_Gi-10" value="&lt;div&gt;# id:UUID&lt;/div&gt;#&amp;nbsp;paciente:PacienteEntity&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;psicologo:PsicologoEntity&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataEmissao:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;dataValidade:LocalDate&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#&lt;/span&gt;&amp;nbsp;assinaturaPsicologo:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IEFTK-zxHjoKDMa3L_Gi-9" vertex="1">
           <mxGeometry y="26" width="190" height="94" as="geometry" />
         </mxCell>
         <mxCell id="IEFTK-zxHjoKDMa3L_Gi-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="IEFTK-zxHjoKDMa3L_Gi-9" vertex="1">
@@ -2486,18 +2477,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="po28loR3oOmi2_0zHHpD-11" value="D" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="GVhWNyBIYU_Gjj7_1gro-68" target="46YpiUPOS7ZKGa58N5SD-33" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="3503" y="1291.29" as="sourcePoint" />
-            <mxPoint x="3663" y="1291.29" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="3640" y="240" />
-              <mxPoint x="3640" y="960" />
-              <mxPoint x="4050" y="960" />
-              <mxPoint x="4050" y="1052" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="po28loR3oOmi2_0zHHpD-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.002;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="3460.52" y="219.99999999999983" as="sourcePoint" />
@@ -2649,18 +2628,6 @@
               <mxPoint x="4050" y="960" />
               <mxPoint x="4460" y="960" />
               <mxPoint x="4460" y="564" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="po28loR3oOmi2_0zHHpD-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.002;exitY=0.274;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="46YpiUPOS7ZKGa58N5SD-2" target="46YpiUPOS7ZKGa58N5SD-33" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="3663" y="1451.29" as="sourcePoint" />
-            <mxPoint x="3823" y="1451.29" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="3640" y="1150" />
-              <mxPoint x="3640" y="960" />
-              <mxPoint x="4050" y="960" />
-              <mxPoint x="4050" y="1035" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3724,7 +3691,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O0WcHyPwYEypY2FNtv0k-1" value="1..1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="O0WcHyPwYEypY2FNtv0k-1" value="1..1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="7826" y="1070" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
