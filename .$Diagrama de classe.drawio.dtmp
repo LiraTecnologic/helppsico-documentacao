@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="FYo9sC7w7eGnZXK1DtLb">
-    <mxGraphModel dx="1956" dy="2351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="800" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3206,7 +3206,7 @@
             <mxPoint x="940" y="2490" as="sourcePoint" />
             <mxPoint x="1100" y="2490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="890" y="2578" />
+              <mxPoint x="890" y="2583" />
               <mxPoint x="890" y="2408" />
             </Array>
           </mxGeometry>
@@ -3239,9 +3239,9 @@
             <mxPoint x="460" y="2670" as="sourcePoint" />
             <mxPoint x="620" y="2670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="2578" />
+              <mxPoint x="360" y="2583" />
               <mxPoint x="360" y="2630" />
-              <mxPoint x="318" y="2630" />
+              <mxPoint x="317" y="2630" />
             </Array>
           </mxGeometry>
         </mxCell>
