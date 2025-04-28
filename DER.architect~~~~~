@@ -536,7 +536,7 @@
    <relationship id="REL153" populated="true" UUID="0b2bafa1-1acf-4baa-980d-150dcca913d7" deferrability="7" deleteRule="3" fk-table-ref="TAB39" fkCardinality="7" identifying="false" name="pacientes_prontuario_fk" physicalName="pacientes_prontuario_fk" pk-table-ref="TAB11" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP154" populated="true" UUID="3b691508-2609-4dd3-955e-8f76093873b3" fk-column-ref="COL42" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL12" />
    </relationship>
-   <relationship id="REL155" populated="true" UUID="80807b20-6aac-4974-9220-3ac3df4bd99c" deferrability="7" deleteRule="3" fk-table-ref="TAB69" fkCardinality="7" identifying="false" name="pacientes_Solicitacoes_fk" physicalName="pacientes_solicitacoes_fk" pk-table-ref="TAB11" pkCardinality="2" updateRule="3" >
+   <relationship id="REL155" populated="true" UUID="80807b20-6aac-4974-9220-3ac3df4bd99c" deferrability="7" deleteRule="3" fk-table-ref="TAB69" fkCardinality="7" identifying="false" name="pacientes_Solicitacoes_fk" physicalName="pacientes_Solicitacoes_fk" pk-table-ref="TAB11" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP156" populated="true" UUID="df54609a-09bb-41d2-b1da-83ce59ad9888" fk-column-ref="COL71" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL12" />
    </relationship>
    <relationship id="REL157" populated="true" UUID="c8feee0e-da88-4be6-9360-92e5ebc810f7" deferrability="7" deleteRule="3" fk-table-ref="TAB76" fkCardinality="7" identifying="false" name="pacientes_documentos_fk" physicalName="pacientes_documentos_fk" pk-table-ref="TAB11" pkCardinality="2" updateRule="3" >
@@ -554,10 +554,10 @@
    <relationship id="REL165" populated="true" UUID="a5793c6c-7d0d-45e4-b52e-5f7482cd8156" deferrability="7" deleteRule="3" fk-table-ref="TAB39" fkCardinality="7" identifying="false" name="psicologos_prontuario_fk" physicalName="psicologos_prontuario_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP166" populated="true" UUID="a136dd69-87c9-4d08-99a5-4fcf67320126" fk-column-ref="COL41" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL55" />
    </relationship>
-   <relationship id="REL167" populated="true" UUID="42ae1e8f-2a2f-4a9e-af74-9dca193cb51b" deferrability="7" deleteRule="3" fk-table-ref="TAB47" fkCardinality="7" identifying="false" name="psicologos_horarioPsicologo_fk" physicalName="psicologos_horariopsicologo_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
+   <relationship id="REL167" populated="true" UUID="42ae1e8f-2a2f-4a9e-af74-9dca193cb51b" deferrability="7" deleteRule="3" fk-table-ref="TAB47" fkCardinality="7" identifying="false" name="psicologos_horarioPsicologo_fk" physicalName="psicologos_horarioPsicologo_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP168" populated="true" UUID="26f27b33-9231-490f-9d5c-6599a5d427b2" fk-column-ref="COL49" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL55" />
    </relationship>
-   <relationship id="REL169" populated="true" UUID="508d0cd0-1dc7-410e-942c-0b3e1a2a0f19" deferrability="7" deleteRule="3" fk-table-ref="TAB69" fkCardinality="7" identifying="false" name="psicologos_Solicitacoes_fk" physicalName="psicologos_solicitacoes_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
+   <relationship id="REL169" populated="true" UUID="508d0cd0-1dc7-410e-942c-0b3e1a2a0f19" deferrability="7" deleteRule="3" fk-table-ref="TAB69" fkCardinality="7" identifying="false" name="psicologos_Solicitacoes_fk" physicalName="psicologos_Solicitacoes_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP170" populated="true" UUID="78b8c452-1dc1-43f5-ac33-b8658acb6b19" fk-column-ref="COL72" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL55" />
    </relationship>
    <relationship id="REL171" populated="true" UUID="551637a2-e1d5-4eb0-9727-eec6ae2e7214" deferrability="7" deleteRule="3" fk-table-ref="TAB76" fkCardinality="7" identifying="false" name="psicologos_documentos_fk" physicalName="psicologos_documentos_fk" pk-table-ref="TAB54" pkCardinality="2" updateRule="3" >
@@ -566,13 +566,13 @@
    <relationship id="REL173" populated="true" UUID="f4c7952e-b13b-44a5-8bd7-ddc8bde136d7" deferrability="7" deleteRule="3" fk-table-ref="TAB85" fkCardinality="7" identifying="true" name="documentos_atestados_fk" physicalName="documentos_atestados_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP174" populated="true" UUID="a15d34ff-19dc-4312-bcec-889bde621e6c" fk-column-ref="COL86" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL77" />
    </relationship>
-   <relationship id="REL175" populated="true" UUID="6186ddd9-b6fd-4b2a-b902-8939326409b5" deferrability="7" deleteRule="3" fk-table-ref="TAB95" fkCardinality="7" identifying="true" name="documentos_laudosPsicologicos_fk" physicalName="documentos_laudospsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
+   <relationship id="REL175" populated="true" UUID="6186ddd9-b6fd-4b2a-b902-8939326409b5" deferrability="7" deleteRule="3" fk-table-ref="TAB95" fkCardinality="7" identifying="true" name="documentos_laudosPsicologicos_fk" physicalName="documentos_laudosPsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP176" populated="true" UUID="f3c076b0-d4db-4398-8454-fba9bd69493e" fk-column-ref="COL96" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL77" />
    </relationship>
-   <relationship id="REL177" populated="true" UUID="47b30083-aa0e-4aeb-85d2-9f457084d0ac" deferrability="7" deleteRule="3" fk-table-ref="TAB108" fkCardinality="7" identifying="true" name="documentos_parecerPsicologicos_fk" physicalName="documentos_parecerpsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
+   <relationship id="REL177" populated="true" UUID="47b30083-aa0e-4aeb-85d2-9f457084d0ac" deferrability="7" deleteRule="3" fk-table-ref="TAB108" fkCardinality="7" identifying="true" name="documentos_parecerPsicologicos_fk" physicalName="documentos_parecerPsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP178" populated="true" UUID="6950cad7-f5bd-4b5f-8e39-83e0d64ae0ae" fk-column-ref="COL109" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL77" />
    </relationship>
-   <relationship id="REL179" populated="true" UUID="e9911e0b-144a-42ba-8167-4612cdf88d9a" deferrability="7" deleteRule="3" fk-table-ref="TAB119" fkCardinality="7" identifying="true" name="documentos_relatorioPsicologicos_fk" physicalName="documentos_relatoriopsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
+   <relationship id="REL179" populated="true" UUID="e9911e0b-144a-42ba-8167-4612cdf88d9a" deferrability="7" deleteRule="3" fk-table-ref="TAB119" fkCardinality="7" identifying="true" name="documentos_relatorioPsicologicos_fk" physicalName="documentos_relatorioPsicologicos_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP180" populated="true" UUID="5d9b95fb-a627-4d91-968c-6505d7f68a6c" fk-column-ref="COL120" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL77" />
    </relationship>
    <relationship id="REL181" populated="true" UUID="4cdee483-1346-4573-8ba4-654e67a13a47" deferrability="7" deleteRule="3" fk-table-ref="TAB131" fkCardinality="7" identifying="true" name="documentos_declaracoes_fk" physicalName="documentos_declaracoes_fk" pk-table-ref="TAB76" pkCardinality="2" updateRule="3" >
@@ -592,10 +592,10 @@
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="false" target-catalog="helppsico"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="true" target-catalog="helppsico"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
- <play-pen zoom="0.9999999999999996" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="false" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+ <play-pen zoom="1.1892071150027206" viewportX="0" viewportY="642" relationship-style="rectilinear" names-displayLogicalNames="false" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
   <table-pane table-ref="TAB1" x="37" y="965" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB11" x="32" y="626" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB24" x="199" y="1246" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
